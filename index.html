@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <!--指定作者和描述-->
+    <meta name="author" content="Ziyi Zhang">
+    <meta name="description" content="The website is a personal blog for Zhangziyi.">
+    <!-- 网站图标 -->
+    <!-- 适配苹果设备 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/coffee.png" /><!-- iphone老设备 -->
+    <link rel="apple-touch-icon" sizes="72x72" href="images/coffee.png" /><!-- ipad -->
+    <link rel="apple-touch-icon" sizes="114x114" href="images/coffee.png" /><!-- retina屏的iPhone和itouch --> 
+    <link rel="apple-touch-icon" sizes="144x144" href="images/coffee.png" /><!-- ipad3的高分辨率 -->
+    <link rel="icon" type="image/png" sizes="72x72" href="images/coffee.png">
+    <title>Better ever than never</title>
+    <!--CSS样式-->
+    <link ref="stylesheet" href="cssfile.css">
+    <!--before body前置样式-->
+    <style type="text/css">
+      body:before {
+        content: ' ';
+        position: fixed;
+        top: 0;
+        background: url('images/bg.jpg') center 0 no-repeat;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover; 
+      }
+      .fl{
+        float:left;
+      }
+      .fr{
+        float:right;
+      }
+      .top-nav{
+        height: 25px;
+        box-shadow: 3px 3px 3px grey;
+        border-radius: 6px;
+        z-index:99999;
+        position:relative;
+      }
+      .nav-con{
+        width: 100%;
+        height: 25px;
+        margin: 10px auto;
+      }
+      .nav-l{
+        height: 25px;
+        color:white;
+        font-weight: bold;
+        line-height: 25px;
+      }
+      .nav-r{
+        height: 25px;
+        line-height: 25px;
+        display: inline-block;
+      }
+      .nav-r ul li{
+        display: inline-block;
+        list-style-type:none;
+        clear: both;
+        overflow:hidden;
+      }
+      .nav-r ul li a{
+        display: inline-block;
+        clear: both;
+        overflow:hidden;
+        padding:0 15px;
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+        background-position:right;
+        background-size:  1.6rem;
+        background-repeat: no-repeat;
+        }
+        .nav-r ul li a:hover{
+            color:#fff;
+        }
+  </style>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="nav-con">
+        <div class="nav-l fl">LynnZ</div>
+        <div class="nav-r fr">
+          <ul>
+              <li><a href="#" style="background-image: url(images/nav/home.png)">主页</a></li>
+              <li><a href="#" style="background-image: url(images/nav/classify.png)">分类</a></li>
+              <li><a href="#" style="background-image: url(images/nav/archive.png)">归档</a></li>
+              <li><a href="#" style="background-image: url(images/nav/message.png)">留言</a></li>
+              <li><a href="#" style="background-image: url(images/nav/me.png)">关于</a></li>
+              <li><a href="#" style="background-image: url(images/nav/search.png)">搜索</a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+    <div><br><br><br><br></div>
+    <script src="jsfile.js"></script>
+  </body>
+</html> 
