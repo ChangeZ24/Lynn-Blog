@@ -26,7 +26,7 @@
       content: ' ';
       position: fixed;
       top: 0;
-      background: url('images/bg.jpg') center 0 no-repeat;
+      background: url('images/searchbg.jpg') center 0 no-repeat;
       z-index: -1;
       right: 0;
       bottom: 0;
@@ -92,6 +92,10 @@
       color: #fff;
     }
 
+    #main {
+      margin: 0px auto 15px auto;
+    }
+
     #footer-wrap {
       position: relative;
       padding: 2rem 1rem;
@@ -108,38 +112,6 @@
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
-    }
-
-    #main {
-      margin: 0px auto 15px auto;
-    }
-
-    .blog {
-      height: 200px;
-      width: 1000px;
-      box-shadow: 3px 3px 3px 3px grey;
-      border-radius: 6px;
-      /* 四边边距：上左下右 */
-      margin: 0px auto 15px auto;
-      background-color: lightgray
-    }
-
-    .img {
-      height: 130px;
-      width: 1000px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      /* 图片超出部分隐藏 */
-      overflow: hidden;
-      border-radius: 6px;
-    }
-
-    .article {
-      margin-top: 5px;
-      height: 50px;
-      width: 1000px;
-      text-align: left;
     }
   </style>
 </head>
@@ -172,40 +144,13 @@
       </div>
     </div>
   </nav>
-  <br>
   <main>
-    <div style="height:auto;text-align:center">
-      <div id="firstBlog" class="blog">
-        <div id="img" class="img">
-          <img src="images/blogbg.jpg" width="100%" height="auto" />
-        </div>
-        <div id="blog" class="article">
-          <strong>First Blog</strong>
-        </div>
-      </div>
-      <div id="secondBlog" class="blog">
-        <div id="img" class="img">
-          <img src="images/blogbg2.jpg" width="100%" height="auto" />
-        </div>
-        <div id="blog" class="article">
-          <strong>Second Blog</strong>
-        </div>
-      </div>
-      <div id="thirdBlog" class="blog">
-        <div id="img" class="img">
-          <img src="images/blogbg3.jpg" width="100%" height="auto" />
-        </div>
-        <div id="blog" class="article">
-          <strong>Third Blog</strong>
-        </div>
-      </div>
-    </div>
     <div style="height: auto;position: relative;">
       xxx
     </div>
   </main>
 
-  <footer id="footer" style="background-image:url(images/bg.jpg)" data-type="photo">
+  <footer id="footer" style="background-image:url(images/searchbg.jpg)" data-type="photo">
     <div id="footer-wrap">
       <div class="copyright">©2020 - x By LynnZ</div>
     </div>
