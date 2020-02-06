@@ -6,7 +6,9 @@
 
 1. 网络基础
 
-![avatar](C:/Users/ChangeLynnZzy/Desktop/internet.jpg)
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/internet.jpg)
 
 2. HTML基础
+
+
 
