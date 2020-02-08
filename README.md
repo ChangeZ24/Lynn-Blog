@@ -39,3 +39,17 @@
 4. 各页面导航样式修正正确
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/htmlweb.jpg)
+
+
+## 2020-02-07
+
+### 学习内容
+
+1. html
+
+html表格、html表单及其组件
+
+### 搭建进度
+
+1. 为留言页面添加表单。
+
