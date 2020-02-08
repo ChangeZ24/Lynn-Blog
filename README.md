@@ -75,6 +75,9 @@ CSS基础、工作流程、DOM、级联继承、选择器、盒子模型、常�
 
 5. 添加页面动态效果
 
-添加导航栏移入鼠标时下划线效果，添加主页博文移入鼠标时阴影效果
+添加导航栏移入鼠标时下划线效果
 
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS1.jpg)
 
+添加主页博文移入鼠标时阴影效果
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS2.jpg)
