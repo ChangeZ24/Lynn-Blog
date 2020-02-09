@@ -81,3 +81,17 @@ CSS基础、工作流程、DOM、级联继承、选择器、盒子模型、常�
 
 添加主页博文移入鼠标时阴影效果
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS2.jpg)
+
+## 2020-02-09
+
+### 学习内容
+
+1. CSS
+
+CSS文字样式
+
+### 搭建进度
+
+1. 添加各页面首页封面及其动画设置。
+
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS3.jpg)
