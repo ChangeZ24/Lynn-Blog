@@ -92,6 +92,8 @@ CSS文字样式
 
 ### 搭建进度
 
-1. 添加各页面首页封面及其动画设置。
+1. 添加各页面首页封面及其动画、跳转设置。
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS3.jpg)
+
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS4.jpg)
