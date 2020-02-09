@@ -97,3 +97,17 @@ CSS文字样式
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS3.jpg)
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS4.jpg)
+
+2. 修改统一各页面样式，确定最终样式
+
+主页封面
+
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/02092.jpg)
+
+主页
+
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/02093.jpg)
+
+其他页面
+
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/02091.jpg)
