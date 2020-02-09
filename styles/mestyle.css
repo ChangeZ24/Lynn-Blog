@@ -1,0 +1,22 @@
+#mainhead{
+    position: relative;
+    max-width:900px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 图片超出部分隐藏 */
+    overflow: hidden;
+    border-radius: 6px;
+    background: url(../images/mebg.jpg) center 0 no-repeat;
+    background-size: cover;
+    background-position: 0 -160px;
+    font:bold 10vh 'Segoe UI', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+#maindiv{
+    padding: 20px 0 0 0;
+    max-width: 800px;
+    margin: 0 auto;
+}

@@ -27,7 +27,7 @@
       content: ' ';
       position: fixed;
       top: 0;
-      background: url('images/messagebg.jpg') center 0 no-repeat;
+      background: url('images/bg.jpg') center 0 no-repeat;
       z-index: -1;
       right: 0;
       bottom: 0;
@@ -39,77 +39,69 @@
 </head>
 
 <body>
-  <header>
-    <nav class="top-nav">
-      <div class="nav-con">
-        <div class="nav-l">LynnZ</div>
-        <div class="nav-r">
-          <ul>
-            <li>
-              <a href="index.html" class="navlink" style="background-image: url(images/nav/home.png)">主页</a>
-            </li>
-            <li>
-              <a href="classify.html" class="navlink" style="background-image: url(images/nav/classify.png)">分类</a>
-            </li>
-            <li>
-              <a href="archive.html" class="navlink" style="background-image: url(images/nav/archive.png)">归档</a>
-            </li>
-            <li>
-              <a href="message.html" class="navlink" style="background-image: url(images/nav/message.png)">留言</a>
-            </li>
-            <li>
-              <a href="me.html" class="navlink" style="background-image: url(images/nav/me.png)">关于</a>
-            </li>
-            <li>
-              <a href="search.html" class="navlink" style="background-image: url(images/nav/search.png)">搜索</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="top-nav">
+    <div class="nav-con">
+      <div class="nav-l">LynnZ</div>
+      <div class="nav-r">
+        <ul>
+          <li>
+            <a href="index.html" class="navlink" style="background-image: url(images/nav/home.png)">主页</a>
+          </li>
+          <li>
+            <a href="classify.html" class="navlink" style="background-image: url(images/nav/classify.png)">分类</a>
+          </li>
+          <li>
+            <a href="archive.html" class="navlink" style="background-image: url(images/nav/archive.png)">归档</a>
+          </li>
+          <li>
+            <a href="message.html" class="navlink" style="background-image: url(images/nav/message.png)">留言</a>
+          </li>
+          <li>
+            <a href="me.html" class="navlink" style="background-image: url(images/nav/me.png)">关于</a>
+          </li>
+          <li>
+            <a href="search.html" class="navlink" style="background-image: url(images/nav/search.png)">搜索</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <div>
-      <div class="headerfont">
+    </div>
+  </nav>
+  <main>
+    <div class="maindiv">
+      <div id="msghead">
         留言板
       </div>
-      <div class="scroll">
-        <a href="#msg" style="background-image: url(images/nav/scroll.png)"></a>
+      <div id="msg">
+        <form action="/my-handling-form-page" method="post">
+          <div id="info">
+            <div id="nickname">
+              <div class="input">
+                <!-- <label for="name">昵称</label> -->
+                <input type="text" id="name" name="username" placeholder="昵称">
+              </div>
+            </div>
+            <div id="mail">
+              <div class="input">
+                <!-- <label for=" email ">邮箱</label> -->
+                <input type="email " id="email " name="useremail " placeholder="邮箱 ">
+              </div>
+            </div>
+          </div>
+          <div id="comments">
+            <!-- <label for="msg ">留言</label> -->
+            <textarea id="msg " name="comment " placeholder="留下你想说的吧~ "></textarea>
+          </div>
+
+          <div class="button">
+            <button type="submit ">提交</button>
+            <button type="reset ">重置</button>
+          </div>
+        </form>
       </div>
     </div>
-  </header>
-  <br>
-  <br>
-  <main>
-    <div id="msg" class="msg">
-      <form action="/my-handling-form-page" method="post">
-        <div id="info">
-          <div id="nickname">
-            <div class="input">
-              <!-- <label for="name">昵称</label> -->
-              <input type="text" id="name" name="username" placeholder="昵称">
-            </div>
-          </div>
-          <div id="mail">
-            <div class="input">
-              <!-- <label for=" email ">邮箱</label> -->
-              <input type="email " id="email " name="useremail " placeholder="邮箱 ">
-            </div>
-          </div>
-        </div>
-        <div id="comments">
-          <!-- <label for="msg ">留言</label> -->
-          <textarea id="msg " name="comment " placeholder="留下你想说的吧~ "></textarea>
-        </div>
-
-        <div class="button">
-          <button type="submit ">提交</button>
-          <button type="reset ">重置</button>
-        </div>
-      </form>
-    </div>
-
   </main>
 
-  <footer id="footer" style="background-image:url(images/messagebg.jpg) " data-type="photo ">
+  <footer>
     <div id="footer-wrap">
       <div class="copyright ">©2020 - x By LynnZ</div>
     </div>

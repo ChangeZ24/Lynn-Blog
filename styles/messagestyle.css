@@ -1,10 +1,26 @@
-/* 留言页面留言表单样式 */
-.msg{
-    background: rgba(255, 255, 255, 0.6);
-    border-radius: 1em;
-    height: auto;
+#msghead{
     position: relative;
+    max-width:900px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 图片超出部分隐藏 */
+    overflow: hidden;
+    border-radius: 6px;
+    background: url(../images/msgimg.jpg) center 0 no-repeat;
+    background-size: cover;
+    background-position: center;
+    font:bold 10vh 'Segoe UI', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
 }
+#msg{
+    padding: 20px 0 0 0;
+    max-width: 850px;
+    margin: 0 auto;
+}
+/* 留言页面留言表单样式 */
 form {
     /* 居中表单 */
     margin: 0 auto;
@@ -12,6 +28,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    max-width: 1000px;
   }
   form div+div+div {
     margin: 1em 0;

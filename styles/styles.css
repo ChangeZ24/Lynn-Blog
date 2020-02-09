@@ -1,3 +1,11 @@
+body{
+  margin: 0;
+}
+ul,li{ 
+  padding:0;
+  margin:0;
+  list-style:none;
+}
 header{
   position: relative;
   width: 100%;
@@ -45,12 +53,12 @@ header{
 .logo{
   font:bold 7vh 'Segoe UI', Helvetica, Arial, sans-serif;
   text-align: center;
-  color: white;
+  color: rgba(0,0,0);
   height: auto;
   padding:20px;
 }
 .logo a{
-  color: white;
+  color: rgba(82, 80, 80);
   height: auto;
   transition: all ease .3s;
   text-decoration: none;
@@ -62,9 +70,9 @@ header{
 /* 导航栏样式 */
   .top-nav {
     height: 35px;
-    box-shadow: 3px 3px 3px grey;
     border-radius: 6px;
     position: relative;
+    background-color: rgba(82, 80, 80, 0.7)
   }
   .nav-con {
     width: 100%;
@@ -83,7 +91,7 @@ header{
     height: 40px;
     overflow: hidden;
   }
-  div > ul{
+  .nav-r > ul{
     margin: 0;
     float:right;
   }
@@ -130,36 +138,46 @@ header{
     color: #eee;
     text-align: center;
   }
-  #footer {
-    position: relative;
-    margin-top: 1rem;
-    background: #49b1f5;
+  footer {
+    position: absolute;
+    background-image:url(../images/bg.jpg);
     background-attachment: local;
     background-position: bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    left: 0;
+    width: 100%;
   }
 
 /* 主体样式 */
-  #main {
-    margin: 0px auto 15px auto;
+  main {
+    background: center 0 no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
   }
   .maindiv{
-    margin: 0;
-    width:100%;
+    padding:0 0 15px 0;
+    margin: 0 auto;
+    max-width:900px;
     height: auto;
     position: relative;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 6px;
   }
+  
 /* 博文样式 */
-  .blog {
-    height: 200px;
-    max-width: 1000px;
+  ul li .blog {
+    height: 250px;
+    max-width: 850px;
     /* box-shadow: 3px 3px 3px 3px grey; */
     border-radius: 6px;
     /* 四边边距：上左下右 */
-    margin: 0px auto 15px auto;
-    background-color: lightgray;
+    margin: 0px auto 25px auto;
+    background-color: rgba(255,255,255,0.9);
     transition: all ease .5s;
   }
 
@@ -168,22 +186,37 @@ header{
     -webkit-filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.7));
     filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.7));
   }
-
-  .img {
-    height: 130px;
-    max-width: 1000px;
+  .bloglist ul li:nth-child(odd) .blog .img{
+    height: 250px;
+    width: 460px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* 图片超出部分隐藏 */
     overflow: hidden;
     border-radius: 6px;
+    float: left;
   }
-  .article {
+  .bloglist ul li:nth-child(odd) .blog .article{
     margin-top: 5px;
-    height: 50px;
-    max-width: 1000px;
+    height: 250px;
     text-align: left;
+    overflow: hidden;
+  }
+  .bloglist ul li:nth-child(even) .blog .img{
+    height: 250px;
+    width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 6px;
+    float: right;
   }
 
+  .bloglist ul li:nth-child(even) .blog .article{
+    margin-top: 5px;
+    height: 250px;
+    text-align: left;
+    overflow: hidden;
+  }
   

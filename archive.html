@@ -20,13 +20,14 @@
   <title>Better ever than never</title>
   <!--CSS样式-->
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/archivestyle.css">
   <!--before body前置样式-->
   <style type="text/css">
     body:before {
       content: ' ';
       position: fixed;
       top: 0;
-      background: url('images/archivebg.jpg') center 0 no-repeat;
+      background: url('images/bg.jpg') center 0 no-repeat;
       z-index: -1;
       right: 0;
       bottom: 0;
@@ -38,55 +39,49 @@
 </head>
 
 <body>
-  <header>
-    <nav class="top-nav">
-      <div class="nav-con">
-        <div class="nav-l">LynnZ</div>
-        <div class="nav-r">
-          <ul>
-            <li>
-              <a href="index.html" class="navlink" style="background-image: url(images/nav/home.png)">主页</a>
-            </li>
-            <li>
-              <a href="classify.html" class="navlink" style="background-image: url(images/nav/classify.png)">分类</a>
-            </li>
-            <li>
-              <a href="archive.html" class="navlink" style="background-image: url(images/nav/archive.png)">归档</a>
-            </li>
-            <li>
-              <a href="message.html" class="navlink" style="background-image: url(images/nav/message.png)">留言</a>
-            </li>
-            <li>
-              <a href="me.html" class="navlink" style="background-image: url(images/nav/me.png)">关于</a>
-            </li>
-            <li>
-              <a href="search.html" class="navlink" style="background-image: url(images/nav/search.png)">搜索</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div>
-      <div class="headerfont">
-        归档
-      </div>
-      <div class="scroll">
-        <a href="#main" style="background-image: url(images/nav/scroll.png)"></a>
+  <nav class="top-nav">
+    <div class="nav-con">
+      <div class="nav-l">LynnZ</div>
+      <div class="nav-r">
+        <ul>
+          <li>
+            <a href="index.html" class="navlink" style="background-image: url(images/nav/home.png)">主页</a>
+          </li>
+          <li>
+            <a href="classify.html" class="navlink" style="background-image: url(images/nav/classify.png)">分类</a>
+          </li>
+          <li>
+            <a href="archive.html" class="navlink" style="background-image: url(images/nav/archive.png)">归档</a>
+          </li>
+          <li>
+            <a href="message.html" class="navlink" style="background-image: url(images/nav/message.png)">留言</a>
+          </li>
+          <li>
+            <a href="me.html" class="navlink" style="background-image: url(images/nav/me.png)">关于</a>
+          </li>
+          <li>
+            <a href="search.html" class="navlink" style="background-image: url(images/nav/search.png)">搜索</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </header>
+  </nav>
   <main>
-    <div id="main" style="height: auto;position: relative;">
-      xxx
+    <div class="maindiv" style="height: auto;position: relative;">
+      <div id="mainhead">
+        归档
+      </div>
+      <div id="maindiv">
+        xxx
+      </div>
     </div>
 
   </main>
-  <footer id="footer" style="background-image:url(images/archivebg.jpg)" data-type="photo">
+  <footer>
     <div id="footer-wrap">
       <div class="copyright">©2020 - x By LynnZ</div>
     </div>
   </footer>
-
   <script src="jsfile.js"></script>
 </body>
 
