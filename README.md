@@ -111,3 +111,27 @@ CSS文字样式
 其他页面
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/02091.jpg)
+
+## 2020-02-10
+
+### 学习内容
+
+1. CSS
+
+CSS样式
+
+### 搭建进度
+
+1. 更改主页样式
+
+## 2020-02-11
+
+### 学习内容
+
+1. JavaScript
+
+JS基础及对象相关
+
+### 搭建进度
+
+无
