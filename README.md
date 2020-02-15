@@ -24,11 +24,11 @@
 
 ### 搭建进度
 
-1. 2020-02-06
+#### 2020-02-06
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/htmlweb.jpg)
 
-2. 2020-02-08
+#### 2020-02-08
 
 留言页面：
 
@@ -42,7 +42,7 @@
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/CSS2.jpg)
 
-3. 2020-02-09
+#### 2020-02-09
 
 添加各页面首页封面及其动画、跳转设置：
 
@@ -61,7 +61,7 @@
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/dev/images/mdpicture/02091.jpg)
 
-4. 2020-02-12
+#### 2020-02-12
 
 最终成品v1.0
 
