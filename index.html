@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <!--指定作者和描述-->
+  <meta name="author" content="Ziyi Zhang">
+  <meta name="description" content="The website is a personal blog for Zhangziyi.">
+  <!-- 网站图标 -->
+  <!-- 适配苹果设备 -->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/coffee.png" />
+  <!-- iphone老设备 -->
+  <link rel="apple-touch-icon" sizes="72x72" href="images/coffee.png" />
+  <!-- ipad -->
+  <link rel="apple-touch-icon" sizes="114x114" href="images/coffee.png" />
+  <!-- retina屏的iPhone和itouch -->
+  <link rel="apple-touch-icon" sizes="144x144" href="images/coffee.png" />
+  <!-- ipad3的高分辨率 -->
+  <link rel="icon" type="image/png" sizes="72x72" href="images/coffee.png">
+  <title>Better ever than never</title>
+  <!--CSS样式-->
+  <link rel="stylesheet" href="styles/styles.css">
+  <style type="text/css">
+    body:before {
+      content: ' ';
+      position: fixed;
+      top: 0;
+      background: url('images/body.jpg') center 0 no-repeat;
+      z-index: -1;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="headerfont">
+        Better Ever Than Never
+      </div>
+      <div class="scroll">
+        <a href="#nav" style="background-image: url(images/nav/scroll.png)"></a>
+      </div>
+    </div>
+  </header>
+  <main style="background-image: url(images/bg.jpg)">
+    <nav id="nav" class="top-nav">
+      <div class="nav-con">
+        <div class="nav-l">
+          <a href="index.html">
+            LynnZ
+          </a>
+        </div>
+        <div class="nav-r">
+          <ul>
+            <li>
+              <a href="index.html" class="navlink" style="background-image: url(images/nav/home.png)">主页</a>
+            </li>
+            <li>
+              <a href="classify.html" class="navlink" style="background-image: url(images/nav/classify.png)">分类</a>
+            </li>
+            <li>
+              <a href="archive.html" class="navlink" style="background-image: url(images/nav/archive.png)">归档</a>
+            </li>
+            <li>
+              <a href="message.html" class="navlink" style="background-image: url(images/nav/message.png)">留言</a>
+            </li>
+            <li>
+              <a href="me.html" class="navlink" style="background-image: url(images/nav/me.png)">关于</a>
+            </li>
+            <li>
+              <a href="search.html" class="navlink" style="background-image: url(images/nav/search.png)">搜索</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="maindiv">
+      <div id="logo" class="logo">
+        <a href="index.html">Hello World!</a>
+      </div>
+      <div class="bloglist">
+        <ul>
+          <li>
+            <div class="blog">
+              <div id="img" class="img">
+                <img src="images/blogbg.jpg" width="100%" height="auto" />
+              </div>
+              <div id="blog" class="article">
+                <strong>First Blog</strong>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div id="secondBlog" class="blog">
+              <div id="img" class="img">
+                <img src="images/blogbg2.jpg" />
+              </div>
+              <div id="blog" class="article">
+                <strong>Second Blog</strong>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div id="thirdBlog" class="blog">
+              <div id="img" class="img">
+                <img src="images/blogbg3.jpg" width="100%" height="auto" />
+              </div>
+              <div id="blog" class="article">
+                <strong>Third Blog</strong>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div>
+        </div>
+  </main>
+
+  <footer>
+    <div id="footer-wrap">
+      <div class="copyright">©2020 - x By LynnZ</div>
+    </div>
+  </footer>
+  <script src="jsfile.js"></script>
+</body>
+
+</html>
