@@ -1,10 +1,10 @@
-#搭建自己的个人网站 v1.0
+# 搭建自己的个人网站 v1.0
 
-纯HTML+CSS+JavaScript
+纯HTML+CSS实现
 
 ## 最终效果
 
-![Image text]()
+![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/master/show.gif)
 
 ## 进度记录
 
