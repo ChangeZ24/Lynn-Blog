@@ -6,7 +6,7 @@
 
 ![Image text](https://github.com/ChangeZ24/Lynn-Blog/blob/master/show.gif)
 
-页面预览： http://awesolynn.me/Lynn-Blog-v1.0/
+页面预览： http://awesolynn.me/Lynn-Blog/
 
 ## 进度记录
 
